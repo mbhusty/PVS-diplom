@@ -1,0 +1,22 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppTheme" parent="android:Theme.Light">         
+        <item name="android:buttonStyle">@style/ButtonTheme</item>         
+    </style>
+    
+    <style name="ButtonTheme" parent="@android:style/Widget.Button">        
+       <item name="android:background">@drawable/button</item>      
+       <item name="android:textColor">@color/White</item> 
+       <item name="android:textStyle">bold</item>      
+    </style>
+  
+    <style name="Theme.Splash" parent="android:Theme">
+        <item name="android:windowBackground">@drawable/splash</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    </resources>
